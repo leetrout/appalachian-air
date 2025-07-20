@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+    <name>Appalachia Polygon</name>
+    <Placemark>
+        <name>Appalachia Area</name>
+        <Style>
+            <LineStyle>
+                <color>ff0000ff</color>
+                <width>2</width>
+            </LineStyle>
+            <PolyStyle>
+                <color>7d0000ff</color>
+            </PolyStyle>
+        </Style>
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -80.7056,35.2097
+                        -85.3638,34.6513
+                        -85.9351,38.9423
+                        -80.9033,42.9082
+                        -74.3994,45.3146
+                        -66.1157,49.5619
+                        -60.6445,47.8805
+                        -57.8540,45.2682
+                        -76.0254,36.4213
+                        -80.7056,35.2097  <!-- Closing the polygon -->
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+</Document>
+</kml>
+
